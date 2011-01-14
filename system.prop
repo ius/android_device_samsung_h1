@@ -1,0 +1,7 @@
+rild.libpath=/system/lib/libsamsung-ril.so
+ro.sf.lcd_density=240
+alsa.mixer.playback.master=DAC1 Analog
+alsa.mixer.capture.master=Analog
+android.keylayout.TWL4030_Keypad=/system/usr/keylayout/TWL4030_Keypad.kl
+android.keychar.TWL4030_Keypad=/system/usr/keychars/TWL4030_Keypad.kcm
+wifi.interface=wlan0
