@@ -1,4 +1,9 @@
 on boot
+    # dpram
+    chown radio radio /dev/dpram0
+    chown radio radio /dev/dpram1
+    chown radio radio /dev/dpramerr
+
     # WLAN
     chown wifi wifi /system/etc/wifi
     chmod 0770 /system/etc/wifi
